@@ -1,0 +1,12 @@
+torch>=2.0.0
+transformers>=4.30.0
+pretty_midi>=0.2.9
+miditoolkit>=1.0.1
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+stable-baselines3>=2.0.0
+gymnasium>=0.28.0
+tensorboard>=2.13.0
+tqdm>=4.65.0
+jupyter>=1.0.0

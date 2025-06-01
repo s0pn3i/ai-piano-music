@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+music-env/
+venv/
+env/
+ENV/
+
+# PyTorch models and checkpoints
+checkpoints/
+rl_checkpoints/
+demo_output/checkpoints/
+*.pt
+*.pth
+
+# Logs
+logs/
+rl_logs/
+demo_output/logs/
+*.log
+events.out.tfevents.*
+
+# Generated music files
+generated_music/
+demo_output/generated_music/
+*.mid
+*.wav
+*.mp3
+
+# Data files (optional - 용량이 크면 제외)
+data/raw/*.mid
+data/processed/
+
+# Evaluation results
+evaluation_results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
